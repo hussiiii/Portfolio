@@ -36,11 +36,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I'm Hussain, a senior at UC Davis studying Computer Science. I&apos;m a full-stack developer and founder who loves building software that solves real-world problems. From founding Repcode.io to interning at startups and research labs, I&apos;ve developed tools that streamline workflows, enhance learning, and improve technical efficiency. Whether working with web apps, AI integrations, or backend systems, I aim to craft meaningful software that empowers users and drives innovation.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

@@ -23,6 +23,17 @@ import {
   jobit,
   tripguide,
   threejs,
+  dev, 
+  innovate, 
+  founder, 
+  swe, 
+  d2d, 
+  sidepocket, 
+  repcode, 
+  aggiehouse, 
+  clubly, 
+  repcodehome, 
+  cnpc, 
 } from "../assets";
 
 export const navLinks = [
@@ -42,20 +53,20 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
+    title: "Founder",
+    icon: founder,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "Innovator",
+    icon: innovate,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "Full-Stack Developer",
+    icon: dev,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Software Engineer",
+    icon: swe,
   },
 ];
 
@@ -116,24 +127,24 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Founder",
+    company_name: "Repcode.io",
+    icon: repcode,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "September 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed & launched an end-to-end full-stack app with over 2000 users to enhance software engineering technical interview preparation using React, Next.js, and over 10 libraries and APIs",
+      "Created a variation of the SuperMemo 2 algorithm to dynamically adjust review intervals for coding problems",
+      "Implemented 15+ REST API endpoints relating to authentication, payment processing, and AI integration",
+      "Developed a scalable backend with Prisma ORM, MySQL, and AWS to optimize data handling and retrieval",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Software Engineer Intern",
+    company_name: "Sidepocket",
+    icon: sidepocket,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "August 2024 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -142,29 +153,15 @@ const experiences = [
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    title: "Software Engineer Intern",
+    company_name: "Design2Data",
+    icon: d2d,
+    iconBg: "#FFFFFF",
+    date: "June 2024 - September 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Rebuilding the labs enzyme web database serving over 40 U.S. undergraduate institutions by transitioning the tech stack from PHP to a modern React, Next.js, and TypeScript framework",
+      "Engineered a data visualization interface with real-time filtering, sorting, and aggregation of enzyme characterization data for over 1000 enzyme variant records",
+      "Implemented a Python script to parse CSV files and generate Michaelis-Menton and Lineweaver-Burk plots",
     ],
   },
 ];
@@ -198,68 +195,42 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    name: "Repcode",
+    description: "A free web app to help software engineers practice Leetcode the right way",
+    tags: ["Next.js", "TypeScript", "React", "Prisma", "AWS", "MySQL"],
+    image: repcodehome,
+    sourceCodeLink: "https://github.com/your-repo",
+    websiteLink: "https://www.repcode.io/",
+    dateRange: "Fall 2024",
   },
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    name: "AggieHouse Portal",
+    description: "Streamlining volunteer scheduling for a housing non-profit.",
+    tags: ["Next.js", "TypeScript", "React", "Prisma", "TailwindCSS", "MySQL", "TextBee API"],
+    image: aggiehouse,
+    sourceCodeLink: "https://github.com/hussiiii/HackDavis2024",
+    websiteLink: "https://aggie-house-portal.vercel.app/",
+    dateRange: "Spring 2024",
   },
   {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    name: "Clubly",
+    description: "A lightning-fast club exploration platform for UC Davis students.",
+    tags: ["Svelte", "TypeScript", "PostgreSQL", "Go", "GORM"],
+    image: clubly,
+    sourceCodeLink: "/",
+    websiteLink: "https://clubly.org/#loaded",
+    dateRange: "Winter 2024",
   },
+  {
+    name: "AI Script Generator",
+    description: "A tool to generate scripts for the Minecraft mod CustomNPCs",
+    tags: ["OpenAI API", "LangChain", "FAISS", "Flask", "Python"],
+    image: cnpc,
+    sourceCodeLink: "https://github.com/hussiiii/Architect",
+    websiteLink: "/",
+    dateRange: "Fall 2023",
+  },
+  // Add more projects here...
 ];
 
 export { services, technologies, experiences, testimonials, projects };

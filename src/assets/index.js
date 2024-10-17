@@ -4,8 +4,13 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import meridian from "./meridian.png"
 import menu from "./menu.svg";
 import close from "./close.svg";
+import dev from "./dev.png"; 
+import innovate from "./innovate.png"; 
+import founder from "./founder.png"; 
+import swe from "./swe.png"; 
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -25,10 +30,17 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import d2d from "./company/d2d.jpg"; 
+import sidepocket from "./company/sidepocket.jpg"; 
+import repcode from "./company/repcode.png"; 
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import aggiehouse from "./projects/aggiehouse.png"; 
+import clubly from "./projects/clubly.png"; 
+import repcodehome from "./projects/repcodehome.png"; 
+import cnpc from "./projects/cnpc.png"; 
 
 export {
   logo,
@@ -59,4 +71,16 @@ export {
   carrent,
   jobit,
   tripguide,
+  dev, 
+  innovate, 
+  founder, 
+  swe, 
+  d2d, 
+  sidepocket, 
+  repcode, 
+  aggiehouse, 
+  clubly, 
+  repcodehome, 
+  cnpc, 
+  meridian, 
 };
