@@ -213,7 +213,7 @@ const projects = [
     description: "A free web app to help software engineers practice Leetcode the right way",
     tags: ["Next.js", "TypeScript", "React", "Prisma", "AWS", "MySQL"],
     image: repcodehome,
-    sourceCodeLink: "https://github.com/your-repo",
+    sourceCodeLink: "/",
     websiteLink: "https://www.repcode.io/",
     dateRange: "Fall 2024",
   },
