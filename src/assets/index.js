@@ -33,6 +33,7 @@ import tesla from "./company/tesla.png";
 import d2d from "./company/d2d.jpg"; 
 import sidepocket from "./company/sidepocket.jpg"; 
 import repcode from "./company/repcode.png"; 
+import aggieworks from "./company/aggieworks.jpg"; 
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -81,6 +82,7 @@ export {
   aggiehouse, 
   clubly, 
   repcodehome, 
+  aggieworks,
   cnpc, 
   meridian, 
 };

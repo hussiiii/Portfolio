@@ -33,6 +33,7 @@ import {
   aggiehouse, 
   clubly, 
   repcodehome, 
+  aggieworks, 
   cnpc, 
 } from "../assets";
 
@@ -162,6 +163,19 @@ const experiences = [
       "Rebuilding the labs enzyme web database serving over 40 U.S. undergraduate institutions by transitioning the tech stack from PHP to a modern React, Next.js, and TypeScript framework",
       "Engineered a data visualization interface with real-time filtering, sorting, and aggregation of enzyme characterization data for over 1000 enzyme variant records",
       "Implemented a Python script to parse CSV files and generate Michaelis-Menton and Lineweaver-Burk plots",
+    ],
+  },
+  {
+    title: "Developer",
+    company_name: "AggieWorks",
+    icon: aggieworks,
+    iconBg: "#FFFFFF",
+    date: "October 2023 - December 2023",
+    points: [
+      "Collaborated with 20+ team members in an AGILE environment to build a lightning-fast club exploration tool for nearly 30,000 students using Svelte, TypeScript, and Go",
+      "Leveraged GORM for efficient data retrieval and query scopes to filter, paginate, and sort club data based on user inputs, reducing average search times by over 8 seconds",
+      "Built a CLI tool facilitating CRUD operations on the PostgreSQL database for over 100 different clubs and tags",
+      "Implemented an interactive club information page from a Figma hi-fi with interactive content and responsive design"
     ],
   },
 ];
