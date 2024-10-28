@@ -147,10 +147,9 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "August 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Implemented full-stack features using React, Next.js, and tRPC for a fintech startup tracking over $1M in assets",
+      "Developed graph-shading functionality for stock projections using linear interpolation, improving the accuracy of over 100 interactive visualizations",
+      "Created 3 dynamic components to display real-time data about a users portfolio",
     ],
   },
   {
