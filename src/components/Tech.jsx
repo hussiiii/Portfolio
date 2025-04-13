@@ -24,7 +24,8 @@ const Tech = () => {
       "MySQL/MariaDB",
       "PostgreSQL",
       "SQLite",
-      "Firebase"
+      "Firebase",
+      "Supabase", 
     ],
     "Developer Tools": [
       "Git",

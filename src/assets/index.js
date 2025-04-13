@@ -34,6 +34,7 @@ import d2d from "./company/d2d.jpg";
 import sidepocket from "./company/sidepocket.jpg"; 
 import repcode from "./company/repcode.png"; 
 import aggieworks from "./company/aggieworks.jpg"; 
+import solidigm from "./company/solidigm.jpg"; 
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -85,4 +86,5 @@ export {
   aggieworks,
   cnpc, 
   meridian, 
+  solidigm, 
 };

@@ -35,6 +35,7 @@ import {
   repcodehome, 
   aggieworks, 
   cnpc, 
+  solidigm, 
 } from "../assets";
 
 export const navLinks = [
@@ -49,7 +50,7 @@ export const navLinks = [
   {
     id: "contact",
     title: "Contact",
-  },
+  }
 ];
 
 const services = [
@@ -127,6 +128,18 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "Techincal Project Manager Intern",
+    company_name: "Solidigm",
+    icon: solidigm,
+    iconBg: "#4F00B4",
+    date: "Jan 2024 - Present",
+    points: [
+      "Led a cross-functional team of 10 engineers/designers to create an OKR analytics dashboard for the VP of CTE using React, Next.js, and Supabase",
+      "Build a real-time analytics dashboard to visualize progress trends across 50+ employees and 10+ branches",
+      "Integrated a reports system to streamline communication between branches, reducing reporting time by over 50%",
+    ],
+  },
   {
     title: "Founder",
     company_name: "Repcode.io",
